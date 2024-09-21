@@ -1,0 +1,24 @@
+body {
+    margin : 0 2rem;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #ff8263, #feb47b);
+}
+header {
+    min-height: 300px;
+    
+}
+
+.todo-item {
+    list-style-type: none;
+    margin: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
